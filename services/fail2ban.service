@@ -3,7 +3,7 @@ Description=Fail2ban systemd monitoring service
 After=docker.service
 
 [Service]
-ExecStart=/usr/bin/docker run -d --name fail2ban --privileged --net=host ianblenke/fail2ban
+ExecStart=/usr/bin/docker run --name fail2ban --privileged --net=host ianblenke/fail2ban
 Restart=on-failure
 TimeoutSec=10
 RestartSec=5
