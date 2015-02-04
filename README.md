@@ -1,4 +1,6 @@
 
+NOTE: If you want something that works with CoreOS, check out [blackhole.cloud-init](https://github.com/ianblenke/coreos-vagrant-kitchen-sink/blob/master/tested/blackhole.cloud-init)
+
 This was an attempt at getting fail2ban to run as a docker container on a coreos host to watch the systemd journal and somehow react to block ssh scanner attacks.
 
 _This does not presently work._
